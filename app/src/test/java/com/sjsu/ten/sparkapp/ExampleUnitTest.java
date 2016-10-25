@@ -1,4 +1,4 @@
-package com.example.ben.sparkapp;
+package com.sjsu.ten.sparkapp;
 
 import org.junit.Test;
 

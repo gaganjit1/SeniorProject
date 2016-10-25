@@ -67,19 +67,31 @@
 
             <!--android:background="@drawable/submit"-->
 
-            <Button
-                android:id="@+id/buttonGo"
+            <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/editTextConfirm"
+                android:hint="Confirm Password"
+                android:textColor="#88FFFFFF"
                 android:layout_margin="15dp"
-                android:text="Go" />
+                android:fontFamily="sans-serif-condensed" />
 
             <Button
                 android:id="@+id/buttonSignup"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
-                android:text="...or Sign up" />
+                android:text="Signup" />
+
+            <Button
+                android:id="@+id/buttonGoBack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="Go Back" />
+
 
 
 
